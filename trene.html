@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html style="height: 100%;" lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASL 22</title>
+    <link rel="icon" href="Bilder/Iconlogo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fasl.css">
+
+</head>
+ 
+<body> 
+    
+    <div class="header">
+
+    </div> 
+    
+    <nav role="velge">
+
+        <ul>
+
+            <li class="alternativ"><a href="index.html">HJEM</a></li>
+
+            <li class="alternativ" class="active"><a href="trene.html">TRENE</a></li>
+
+            <li class="alternativ"><a href="kontakt.html">KONTAKT OSS</a></li>
+
+            <li class="alternativ"><a href="butikk.html">BUTIKK</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="logo">
+
+        <div><img src="Bilder/FASL Logo.png" style="width: 18em;"></div>
+
+    </div>
+
+    <div class="tekstbox">
+
+        <h3 id="teksting">VELG ET MODUS</h3>
+
+        <div class="korter">
+
+            <div class="kort">
+
+            <button id="klassisk">
+
+                <img title="Klassisk modus, uten ord" src="Bilder/KlassiskmodusFASL.png"/>
+
+            </button>
+            
+            </div>
+
+            <div class="kort">
+
+            <button id="enkel">
+
+                <img title="Enkel modus, ord hver 10 sekund" src="Bilder/EnkelmodusFASL.png"/>
+
+            </button>
+
+            </div>
+
+            <div class="kort">
+
+            <button id="hard">
+
+                <img title="Hard modus, ord hver 5 sekund" src="Bilder/hardmodusFASL.png"/>
+
+            </button>
+
+            </div>
+            
+            <div class="kort">
+
+            <button id="ekstrem">
+
+                <img title="Ekstrem modus, ord hver 2 sekund" src="Bilder/EkstremodusFASL.png"/>
+
+            </button>
+
+            </div>
+
+        </div>
+
+        <div id="clock">
+
+            <span id="seconds">5</span>
+
+        </div>
+
+
+        <div id="ord">
+            
+        </div>
+
+        <h3 id="tekstingbeat">VELG EN BEAT:</h3>
+
+        <div class="player" id="player">
+
+            <h1 class="navn" id="navn"></h1>
+    
+            <img class="bilde" id="bilde">
+    
+            <audio id="audio">
+
+            </audio>
+    
+            <div id="progressbar" class="progressbar">
+
+                <section id="progress" class="progress"></section>
+
+            </div>
+    
+            <section class="controls">
+
+                <button class="prev">
+
+                    <i id="prev" class="fas fa-backward"></i>
+
+                </button>
+
+                <button class="play">
+
+                    <i id="play" class="fas fa-play"></i>
+
+                </button>
+
+                <button class="next">
+
+                    <i id="next" class="fas fa-forward"></i>
+
+                </button>
+
+            </section>
+    
+            
+        </div>
+    </div>
+
+    <div class="fot">
+
+        <footer>
+
+            <div class="logo2">
+                
+                <a href="index.html"></a> <img src="Bilder/FASL Navn.png">
+            
+            </div>
+
+            <ul>
+
+                <li><a href="index.html">HJEM</a></li>
+
+                <li><a href="trene.html">TRENE</a></li>
+
+                <li><a href="kontakt.html">KONTAKT OSS</a></li>
+
+                <li><a href="butikk.html">BUTIKK</a></li>
+
+            </ul>
+            
+            <p class="copyright">FASL 22 © 2022</p>
+
+        </footer>
+
+    <script src="fasl.js"> </script>
+</body>
+</html>
